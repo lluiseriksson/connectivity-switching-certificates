@@ -1,0 +1,47 @@
+{
+  "schema": "SWITCH-GRAPH-CONN-CERT-1.0",
+  "mode": "on_off_wsat_series_parallel_exact",
+  "name": "mode3_wsat_unsat_k1",
+  "variables": [
+    "x1",
+    "x2",
+    "x3",
+    "x4"
+  ],
+  "formula": {
+    "op": "and",
+    "left": {
+      "op": "var",
+      "name": "x1"
+    },
+    "right": {
+      "op": "and",
+      "left": {
+        "op": "var",
+        "name": "x2"
+      },
+      "right": {
+        "op": "or",
+        "left": {
+          "op": "var",
+          "name": "x3"
+        },
+        "right": {
+          "op": "var",
+          "name": "x4"
+        }
+      }
+    }
+  },
+  "assignment": {
+    "x1": 1,
+    "x2": 0,
+    "x3": 0,
+    "x4": 0
+  },
+  "budget_k": 1,
+  "claimed_formula_val": 0,
+  "claimed_connected": 0,
+  "psi_pattern_edges_m": 4,
+  "claimed_psi_tight_weight": 20
+}

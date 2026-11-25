@@ -1,0 +1,69 @@
+{
+  "experiment": "exp4_psi_and_gadget_scaling",
+  "rows": [
+    {
+      "psi_edges_m": 1,
+      "vertex_vars_2m": 2,
+      "arc_vars_2m": 2,
+      "edge_vars_m": 1,
+      "psi_tight_5m": 5,
+      "gadget_21_budget_4x": 20
+    },
+    {
+      "psi_edges_m": 2,
+      "vertex_vars_2m": 4,
+      "arc_vars_2m": 4,
+      "edge_vars_m": 2,
+      "psi_tight_5m": 10,
+      "gadget_21_budget_4x": 40
+    },
+    {
+      "psi_edges_m": 3,
+      "vertex_vars_2m": 6,
+      "arc_vars_2m": 6,
+      "edge_vars_m": 3,
+      "psi_tight_5m": 15,
+      "gadget_21_budget_4x": 60
+    },
+    {
+      "psi_edges_m": 4,
+      "vertex_vars_2m": 8,
+      "arc_vars_2m": 8,
+      "edge_vars_m": 4,
+      "psi_tight_5m": 20,
+      "gadget_21_budget_4x": 80
+    },
+    {
+      "psi_edges_m": 6,
+      "vertex_vars_2m": 12,
+      "arc_vars_2m": 12,
+      "edge_vars_m": 6,
+      "psi_tight_5m": 30,
+      "gadget_21_budget_4x": 120
+    },
+    {
+      "psi_edges_m": 8,
+      "vertex_vars_2m": 16,
+      "arc_vars_2m": 16,
+      "edge_vars_m": 8,
+      "psi_tight_5m": 40,
+      "gadget_21_budget_4x": 160
+    },
+    {
+      "psi_edges_m": 10,
+      "vertex_vars_2m": 20,
+      "arc_vars_2m": 20,
+      "edge_vars_m": 10,
+      "psi_tight_5m": 50,
+      "gadget_21_budget_4x": 200
+    },
+    {
+      "psi_edges_m": 15,
+      "vertex_vars_2m": 30,
+      "arc_vars_2m": 30,
+      "edge_vars_m": 15,
+      "psi_tight_5m": 75,
+      "gadget_21_budget_4x": 300
+    }
+  ]
+}

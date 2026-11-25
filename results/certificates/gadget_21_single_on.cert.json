@@ -1,0 +1,28 @@
+{
+  "schema": "SWITCH-GRAPH-CONN-CERT-1.0",
+  "mode": "gadget_21_star_reduction_exact",
+  "name": "mode4_gadget_single_on",
+  "num_orig_vertices": 4,
+  "orig_switches": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "source_a": 1,
+  "target_b": 3,
+  "orig_config": [
+    1
+  ],
+  "gadget_config": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "orig_budget_lambda": 1,
+  "claimed_orig_weight": 1,
+  "claimed_gadget_weight": 4
+}

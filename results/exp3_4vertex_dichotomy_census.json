@@ -1,0 +1,8 @@
+{
+  "experiment": "exp3_4vertex_dichotomy_census",
+  "total_no_isolated": 41,
+  "complete_multipartite_P": 14,
+  "np_K2_plus_K2": 3,
+  "np_P4": 12,
+  "np_L31": 12
+}

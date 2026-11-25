@@ -1,0 +1,223 @@
+{
+  "experiment": "exp1_certified_atlas",
+  "count": 16,
+  "rows": [
+    {
+      "file": "local_tractable_multipartite.cert.json",
+      "mode": "local_con_multipartite_dichotomy_exact",
+      "verify_ms": 0.07,
+      "summary": {
+        "verified": true,
+        "mode": "local_con_multipartite_dichotomy_exact",
+        "branch": "tractable_path",
+        "num_switches": 4,
+        "path_edges": 3,
+        "transition_path_edges": 6
+      }
+    },
+    {
+      "file": "local_obstruction_K2K2.cert.json",
+      "mode": "local_con_multipartite_dichotomy_exact",
+      "verify_ms": 0.031,
+      "summary": {
+        "verified": true,
+        "mode": "local_con_multipartite_dichotomy_exact",
+        "branch": "np_obstruction",
+        "obstruction_switch": 0,
+        "obstruction_type": "K2+K2"
+      }
+    },
+    {
+      "file": "local_obstruction_P4.cert.json",
+      "mode": "local_con_multipartite_dichotomy_exact",
+      "verify_ms": 0.03,
+      "summary": {
+        "verified": true,
+        "mode": "local_con_multipartite_dichotomy_exact",
+        "branch": "np_obstruction",
+        "obstruction_switch": 0,
+        "obstruction_type": "P4"
+      }
+    },
+    {
+      "file": "local_obstruction_L31.cert.json",
+      "mode": "local_con_multipartite_dichotomy_exact",
+      "verify_ms": 0.03,
+      "summary": {
+        "verified": true,
+        "mode": "local_con_multipartite_dichotomy_exact",
+        "branch": "np_obstruction",
+        "obstruction_switch": 0,
+        "obstruction_type": "L3,1"
+      }
+    },
+    {
+      "file": "global_yes_weighted_n5.cert.json",
+      "mode": "global_con_matroid_intersection_exact",
+      "verify_ms": 0.07,
+      "summary": {
+        "verified": true,
+        "mode": "global_con_matroid_intersection_exact",
+        "outcome": "YES_spanning_tree",
+        "n": 5,
+        "config_weight": 6,
+        "shifted_tree_weight": 0,
+        "budget_lambda": 7
+      }
+    },
+    {
+      "file": "global_yes_shifted_n8.cert.json",
+      "mode": "global_con_matroid_intersection_exact",
+      "verify_ms": 0.105,
+      "summary": {
+        "verified": true,
+        "mode": "global_con_matroid_intersection_exact",
+        "outcome": "YES_spanning_tree",
+        "n": 8,
+        "config_weight": 21,
+        "shifted_tree_weight": 11,
+        "budget_lambda": 22
+      }
+    },
+    {
+      "file": "global_no_edmonds_n6.cert.json",
+      "mode": "global_con_matroid_intersection_exact",
+      "verify_ms": 0.066,
+      "summary": {
+        "verified": true,
+        "mode": "global_con_matroid_intersection_exact",
+        "outcome": "NO_edmonds_rank_obstruction",
+        "n": 6,
+        "r1_A": 3,
+        "r2_B": 1,
+        "max_common_indep": 4
+      }
+    },
+    {
+      "file": "global_no_edmonds_n8.cert.json",
+      "mode": "global_con_matroid_intersection_exact",
+      "verify_ms": 0.06,
+      "summary": {
+        "verified": true,
+        "mode": "global_con_matroid_intersection_exact",
+        "outcome": "NO_edmonds_rank_obstruction",
+        "n": 8,
+        "r1_A": 4,
+        "r2_B": 2,
+        "max_common_indep": 6
+      }
+    },
+    {
+      "file": "wsat_sp_sat_k2.cert.json",
+      "mode": "on_off_wsat_series_parallel_exact",
+      "verify_ms": 0.045,
+      "summary": {
+        "verified": true,
+        "mode": "on_off_wsat_series_parallel_exact",
+        "formula_val": 1,
+        "connected": 1,
+        "weight": 3,
+        "sp_vertices": 3,
+        "psi_tight_5m": 15
+      }
+    },
+    {
+      "file": "wsat_sp_unsat_k1.cert.json",
+      "mode": "on_off_wsat_series_parallel_exact",
+      "verify_ms": 0.035,
+      "summary": {
+        "verified": true,
+        "mode": "on_off_wsat_series_parallel_exact",
+        "formula_val": 0,
+        "connected": 0,
+        "weight": 1,
+        "sp_vertices": 4,
+        "psi_tight_5m": 20
+      }
+    },
+    {
+      "file": "wsat_sp_deep_sat_k3.cert.json",
+      "mode": "on_off_wsat_series_parallel_exact",
+      "verify_ms": 0.04,
+      "summary": {
+        "verified": true,
+        "mode": "on_off_wsat_series_parallel_exact",
+        "formula_val": 1,
+        "connected": 1,
+        "weight": 4,
+        "sp_vertices": 5,
+        "psi_tight_5m": 30
+      }
+    },
+    {
+      "file": "wsat_sp_psi_k4.cert.json",
+      "mode": "on_off_wsat_series_parallel_exact",
+      "verify_ms": 0.045,
+      "summary": {
+        "verified": true,
+        "mode": "on_off_wsat_series_parallel_exact",
+        "formula_val": 1,
+        "connected": 1,
+        "weight": 3,
+        "sp_vertices": 5,
+        "psi_tight_5m": 50
+      }
+    },
+    {
+      "file": "gadget_21_single_on.cert.json",
+      "mode": "gadget_21_star_reduction_exact",
+      "verify_ms": 0.041,
+      "summary": {
+        "verified": true,
+        "mode": "gadget_21_star_reduction_exact",
+        "orig_switches": 1,
+        "gadget_switches": 4,
+        "orig_weight": 1,
+        "gadget_weight": 4,
+        "both_connected": true
+      }
+    },
+    {
+      "file": "gadget_21_chain3_mixed.cert.json",
+      "mode": "gadget_21_star_reduction_exact",
+      "verify_ms": 0.062,
+      "summary": {
+        "verified": true,
+        "mode": "gadget_21_star_reduction_exact",
+        "orig_switches": 3,
+        "gadget_switches": 12,
+        "orig_weight": 1,
+        "gadget_weight": 4,
+        "both_connected": true
+      }
+    },
+    {
+      "file": "gadget_21_asymmetric_backward.cert.json",
+      "mode": "gadget_21_star_reduction_exact",
+      "verify_ms": 0.055,
+      "summary": {
+        "verified": true,
+        "mode": "gadget_21_star_reduction_exact",
+        "orig_switches": 3,
+        "gadget_switches": 12,
+        "orig_weight": 1,
+        "gadget_weight": 5,
+        "both_connected": true
+      }
+    },
+    {
+      "file": "gadget_21_chain5_path.cert.json",
+      "mode": "gadget_21_star_reduction_exact",
+      "verify_ms": 0.16,
+      "summary": {
+        "verified": true,
+        "mode": "gadget_21_star_reduction_exact",
+        "orig_switches": 5,
+        "gadget_switches": 20,
+        "orig_weight": 3,
+        "gadget_weight": 12,
+        "both_connected": true
+      }
+    }
+  ]
+}

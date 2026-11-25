@@ -1,0 +1,154 @@
+{
+  "schema": "SWITCH-GRAPH-CONN-CERT-1.0",
+  "mode": "global_con_matroid_intersection_exact",
+  "name": "mode2_no_edmonds_rank_n8",
+  "num_vertices": 8,
+  "switches": [
+    [
+      [
+        [
+          0,
+          1
+        ]
+      ],
+      []
+    ],
+    [
+      [
+        [
+          2,
+          3
+        ]
+      ],
+      []
+    ],
+    [
+      [
+        [
+          4,
+          5
+        ]
+      ],
+      []
+    ],
+    [
+      [
+        [
+          6,
+          7
+        ]
+      ],
+      []
+    ],
+    [
+      [
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          5,
+          6
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          5
+        ]
+      ],
+      [
+        [
+          4,
+          7
+        ]
+      ]
+    ]
+  ],
+  "position_weights": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "budget_lambda": 20,
+  "outcome": "NO_edmonds_rank_obstruction",
+  "config": [],
+  "tree_switch_indices": [],
+  "claimed_config_weight": null,
+  "claimed_shifted_tree_weight": null,
+  "obstruction_A_edges": [
+    [
+      0,
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      1,
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      2,
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      3,
+      [
+        6,
+        7
+      ]
+    ]
+  ],
+  "obstruction_B_switches": [
+    4,
+    5
+  ],
+  "claimed_r1_A": 4,
+  "claimed_r2_B": 2
+}

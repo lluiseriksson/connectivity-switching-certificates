@@ -1,0 +1,50 @@
+{
+  "schema": "SWITCH-GRAPH-CONN-CERT-1.0",
+  "mode": "gadget_21_star_reduction_exact",
+  "name": "mode4_gadget_chain3",
+  "num_orig_vertices": 6,
+  "orig_switches": [
+    [
+      0,
+      0,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      4,
+      3
+    ],
+    [
+      3,
+      4,
+      5,
+      5
+    ]
+  ],
+  "source_a": 0,
+  "target_b": 5,
+  "orig_config": [
+    0,
+    1,
+    0
+  ],
+  "gadget_config": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "orig_budget_lambda": 1,
+  "claimed_orig_weight": 1,
+  "claimed_gadget_weight": 4
+}

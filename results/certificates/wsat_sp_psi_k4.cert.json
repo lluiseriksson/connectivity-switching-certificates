@@ -1,0 +1,77 @@
+{
+  "schema": "SWITCH-GRAPH-CONN-CERT-1.0",
+  "mode": "on_off_wsat_series_parallel_exact",
+  "name": "mode3_wsat_psi_k4",
+  "variables": [
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7"
+  ],
+  "formula": {
+    "op": "and",
+    "left": {
+      "op": "and",
+      "left": {
+        "op": "var",
+        "name": "x1"
+      },
+      "right": {
+        "op": "or",
+        "left": {
+          "op": "var",
+          "name": "x2"
+        },
+        "right": {
+          "op": "var",
+          "name": "x3"
+        }
+      }
+    },
+    "right": {
+      "op": "and",
+      "left": {
+        "op": "or",
+        "left": {
+          "op": "var",
+          "name": "x4"
+        },
+        "right": {
+          "op": "var",
+          "name": "x5"
+        }
+      },
+      "right": {
+        "op": "or",
+        "left": {
+          "op": "var",
+          "name": "x6"
+        },
+        "right": {
+          "op": "neg",
+          "arg": {
+            "op": "var",
+            "name": "x7"
+          }
+        }
+      }
+    }
+  },
+  "assignment": {
+    "x1": 1,
+    "x2": 1,
+    "x3": 0,
+    "x4": 1,
+    "x5": 0,
+    "x6": 0,
+    "x7": 0
+  },
+  "budget_k": 3,
+  "claimed_formula_val": 1,
+  "claimed_connected": 1,
+  "psi_pattern_edges_m": 10,
+  "claimed_psi_tight_weight": 50
+}

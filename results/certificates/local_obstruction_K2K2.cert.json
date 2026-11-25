@@ -1,0 +1,44 @@
+{
+  "schema": "SWITCH-GRAPH-CONN-CERT-1.0",
+  "mode": "local_con_multipartite_dichotomy_exact",
+  "name": "mode1_np_obstruction_K2K2",
+  "num_vertices": 5,
+  "switches": [
+    [
+      [
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          3,
+          4
+        ]
+      ]
+    ]
+  ],
+  "source_a": 0,
+  "target_b": 4,
+  "branch": "np_obstruction",
+  "config": [],
+  "path_vertices": [],
+  "path_switches": [],
+  "obstruction_switch_idx": 0,
+  "obstruction_quad": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "claimed_obstruction_type": "K2+K2"
+}

@@ -1,0 +1,41 @@
+{
+  "experiment": "exp2_wsat_truth_table_sweep",
+  "rows": [
+    {
+      "formula": "F1_4var",
+      "num_vars": 4,
+      "sp_vertices": 3,
+      "sp_edges": 4,
+      "total_assignments": 16,
+      "exact_matches": 16,
+      "sat_count": 9
+    },
+    {
+      "formula": "F2_4var",
+      "num_vars": 4,
+      "sp_vertices": 4,
+      "sp_edges": 4,
+      "total_assignments": 16,
+      "exact_matches": 16,
+      "sat_count": 3
+    },
+    {
+      "formula": "F3_6var",
+      "num_vars": 6,
+      "sp_vertices": 5,
+      "sp_edges": 6,
+      "total_assignments": 64,
+      "exact_matches": 64,
+      "sat_count": 21
+    },
+    {
+      "formula": "F4_7var",
+      "num_vars": 7,
+      "sp_vertices": 5,
+      "sp_edges": 7,
+      "total_assignments": 128,
+      "exact_matches": 128,
+      "sat_count": 27
+    }
+  ]
+}
